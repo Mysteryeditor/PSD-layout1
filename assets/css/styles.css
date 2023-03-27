@@ -1,4 +1,34 @@
-#layer1{
-    width:100%;
+#layer1 {
+    width: 100%;
+    height:847px;
     background-image: url("/assets/images/layer1bg.png")
+}
+
+.navbar-transparent {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#logo {
+    height: 50px;
+    width: 100px;
+    margin-left: -20px;
+}
+
+.navbutton{
+    background-color:rgb(176,180,60);
+    border:none;
+    padding:2px;
+    margin-top: 6px;
+    color:white
+}
+
+.navbar .nav-link {
+    color: white;
+  }
+  
+/* for the content in the first layer */
+#content1{
+    margin-left: 350px;
+    margin-top: 300px;
 }
