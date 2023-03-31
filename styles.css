@@ -1,10 +1,14 @@
 #layer1 {
     width: 100%;
-    height:547px;
+    height: 547px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("/assets/images/layer1bg.png") 
-    
+    background-image: url("/assets/images/layer1bg.png")
+}
+#navbartext li a{
+    color:white;
+    font-family: "Quicksand";
+    font-size: 10px;
 }
 
 .navbar-transparent {
@@ -18,21 +22,40 @@
     margin-left: -20px;
 }
 
-.navbutton{
-    background-color:rgb(176,180,60);
-    border:none;
-    padding:2px;
+.navbutton {
+    background-color: rgb(176, 180, 60);
+    border: none;
+    padding-top: 2px;
     margin-top: 6px;
-    color:white
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10px;
+    height:30px;
+    width:100px
+
 }
 
-.navbar .nav-link {
-    color: white;
-  }
-  
+
+
 /* for the content in the first layer */
-#content1{
+#content1 {
     width: 340px;
-    margin-left: 30px;
+    margin-left: 300px;
     margin-top: 200px;
+}
+
+#line1 {
+    font-family: cursive;
+    font-size: 50px;
+    color: rgb(176, 180, 60);
+}
+
+#line3,
+#line2 {
+    font-size: 20px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    
 }
