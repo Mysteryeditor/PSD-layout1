@@ -99,15 +99,10 @@
     font-size: 25px;
 }
 
-.card {
+#card1 {
     background-color: rgba(170, 179, 60, 0.3);
     width: 170px;
     height: 200px;
-
-
-}
-
-#card1 {
     border-radius: 5px;
 
 }
@@ -121,7 +116,7 @@
 
 }
 
-.card-body {
+.card-body-custom {
     width: 240px;
     text-align: center;
 }
@@ -282,4 +277,22 @@
     font-weight: 600;
     font-family: 'Quicksand', sans-serif;
 }
+/* for the table */
+.bg-custom{
+    background-color: #aab33c;
+}
 
+#layer6{
+    background-image: url("/assets/images/layer6bg.png");
+    width: 100%;
+    height:212px;
+    position: relative;
+}
+#layer6 a{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    /* margin-top: 100px */
+}
