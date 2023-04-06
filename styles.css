@@ -416,8 +416,10 @@ th {
 }
 
 #layer8div{
-margin-left: 600px;
+width: 100%;
 }
+
+
 
 #layer8button{
     background-color: #aab33c;
@@ -425,6 +427,7 @@ margin-left: 600px;
     border: none;
     width:233px;
     height:50px;
+    margin-left: 500px;
 
 }
 
