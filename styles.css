@@ -277,18 +277,97 @@
     font-weight: 600;
     font-family: 'Quicksand', sans-serif;
 }
+
 /* for the table */
-.bg-custom{
+.bg-custom {
     background-color: #aab33c;
 }
 
-#layer6{
+#tablehead {
+    background-color: #aab33c;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+
+
+
+}
+
+#tablesubhead {
+    font-size: 25px;
+}
+
+.textp {
+    width: 157px;
+    height: 27px;
+    font-size: xx-small;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+th {
+    height: 15px;
+}
+
+.table {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#price {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.table thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.table thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(170, 179, 59, 0.3);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+
+#years label {
+    position: relative;
+    margin-left: 350px;
+    width: 50px;
+    font-size: 19px;
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+
+.tblep {
+    font-weight: 100;
+    font-size: xx-small;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+#tblep2 {
+    color: #aab33c;
+    font-size: medium;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#layer6 {
     background-image: url("/assets/images/layer6bg.png");
     width: 100%;
-    height:212px;
-    
+    height: 212px;
+
 }
-#layer6 a{
+
+#layer6 a {
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     font-size: 35px;
@@ -297,38 +376,55 @@
     /* margin-top: 100px */
 }
 
-#subfooter{
+#layer7{
+    height:400px;
+    
+}
+
+#layer7 .card {
+    width: 250px;
+    height: 50px;
+    flex-direction: row;
+    margin-left: 55px;
+}
+
+#layer7 .card img {
+    width: 30%;
+}
+
+#layer7 .card-text{
+    font-size:10px;
+}
+
+#subfooter {
     background-image: url("/assets/images/footerbg.png");
     height: 344px;
 }
 
-#subfootercon{
-    
-}
-
 /* for the p tag in the first column of the footer */
-#col1con{
+#col1con {
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
 }
-#footerlist1{
-    list-style-type: none; 
+
+#footerlist1 {
+    list-style-type: none;
     margin-left: -30px;
 }
 
 
-input{
-    border:none;
+input {
+    border: none;
     padding: 10px;
     margin-top: 10px;
 }
 
-#footerheads{
+#footerheads {
     font-weight: 800;
     font-family: 'Quicksand', sans-serif;
 }
 
-#footerformbutton{
+#footerformbutton {
     height: 40px;
     width: 110px;
     background-color: rgb(176, 180, 60);
@@ -342,19 +438,20 @@ input{
     margin-left: 135px;
 }
 
-#mainfooter{
+#mainfooter {
     width: 100%;
-    height:80px;
+    height: 80px;
     background-color: #aab33c;
 
 }
 
-#mainfootercon1{
+#mainfootercon1 {
     font-family: 'Quicksand', sans-serif;
     color: #ffffff;
-   
+
 }
-#mainfootercon2{
+
+#mainfootercon2 {
     font-family: 'Quicksand', sans-serif;
     color: #ffffff;
 }
